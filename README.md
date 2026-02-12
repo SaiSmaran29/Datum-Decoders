@@ -150,6 +150,14 @@ Whenever a clinical action is updated:
 | Admin | Monitors system-wide operations |
 
 ---
+## 📸 Dashboard Preview
+
+![CareFlow Dashboard](Screenshot 2026-02-12 120242.png)
+
+## ⏳ Patient Timeline
+
+![Timeline View](Screenshot 2026-02-12 120242.png)
+
 
 ## 🧪 Example Workflow
 
