@@ -150,13 +150,15 @@ Whenever a clinical action is updated:
 | Admin | Monitors system-wide operations |
 
 ---
+## Authorization Page
+![login page](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20121150.png)
+![Sign up Page](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20121210.png)
 ## 📸 Dashboard Preview
 
 ![CareFlow Dashboard](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20120242.png)
 
-## ⏳ Patient Timeline
-
-![Timeline View](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20120242.png)
+## ⏳ Application Interface
+![api](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20121130.png)
 
 
 ## 🧪 Example Workflow
