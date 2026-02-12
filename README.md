@@ -2,7 +2,7 @@
 
 CareFlow is a workflow-driven clinical coordination platform that enables real-time task routing, status tracking, and interdepartmental visibility across hospital units. The system structures clinical operations around a single longitudinal patient record and a live, event-driven care timeline.
 
-🔗 **Live Application:** [Insert deployed app link here]
+🔗 **Live Application:** [https://careflowmed.netlify.app/]
 
 ---
 
