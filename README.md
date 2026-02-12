@@ -181,6 +181,9 @@ Whenever a clinical action is updated:
 - IoT-based patient monitoring  
 
 ---
+### 📄 Project Report
+You can read the complete project documentation here:
+👉 [CareFlow.pdf](file:///C:/Users/saism/Downloads/Domain%20EduTech%20(Education%20Technology)%20%E2%97%89%20Problem%20statement%20%E2%9E%A2%20AI-Driven%20Adaptive%20Assessment%20System%20OUR%20RE-DEFINED%20PROBLEM%20STATEMENT%20%E2%9E%A2%20To%20develop%20a%20Psycho-Emotionally%20Calibrated%20AI%20assessment%20system%20.pdf)
 
 ## 🏁 Summary
 
