@@ -1,73 +1,183 @@
-# Welcome to your Lovable project
+# 🏥 CareFlow – Patient-Centric Clinical Workflow System
 
-## Project info
+CareFlow is a workflow-driven clinical coordination platform that enables real-time task routing, status tracking, and interdepartmental visibility across hospital units. The system structures clinical operations around a single longitudinal patient record and a live, event-driven care timeline.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🔗 **Live Application:** [Insert deployed app link here]
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🔁 System Execution Flow
 
-**Use Lovable**
+Clinical Input → Action Creation → Workflow Processing → Department Queue → Status Update → Timeline Event → Live Dashboard Sync
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧠 System Overview
 
-**Use your preferred IDE**
+CareFlow functions as a workflow orchestration layer between hospital departments. Instead of isolated communication channels, all clinical activities are modeled as structured workflow entities and tracked through lifecycle states.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+The platform emphasizes:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Patient-centric data organization  
+- Event-driven updates  
+- Role-based operational dashboards  
+- Cross-department task visibility  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🏗 Technical Architecture
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+CareFlow follows a three-tier architecture.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 1️⃣ Presentation Layer (Frontend)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Role-based dashboards that provide:
 
-**Edit a file directly in GitHub**
+- Authentication (Login / Signup)  
+- Patient record interface  
+- Care timeline visualization  
+- Department task panels  
+- Action creation and task controls  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**Responsibilities**
+- User interaction handling  
+- Real-time state display  
+- Dashboard rendering  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 2️⃣ Application Layer (Backend Workflow Engine)
 
-## What technologies are used for this project?
+Core system logic responsible for:
 
-This project is built with:
+- Clinical action creation and validation  
+- Workflow state transitions  
+- Timeline event generation  
+- Role-based access control enforcement  
+- Update propagation across users  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This layer ensures that when a task status changes, the update is reflected across all relevant stakeholders.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### 3️⃣ Data Layer (Centralized Storage)
 
-## Can I connect a custom domain to my Lovable project?
+Persistent storage for:
 
-Yes, you can!
+- Patient entities  
+- Users and roles  
+- Clinical actions  
+- Timeline event logs  
+- Attachments and notes  
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+The database acts as the single source of truth for patient workflow state.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 🧩 Core System Modules
+
+### 🔐 Authentication & Authorization
+- Role-Based Access Control (RBAC)  
+- Segmented dashboard access  
+- Protected patient data views  
+
+### 🧾 Patient Record Module
+Maintains:
+
+- Demographics  
+- Diagnoses  
+- Allergies  
+- Current medications  
+
+Serves as the root entity for all clinical workflow actions.
+
+---
+
+### 🔁 Clinical Action Workflow Engine
+
+All hospital operations are represented as structured clinical actions with defined attributes such as type, department, priority, and status.
+
+**Lifecycle States**
+
+Ordered → Acknowledged → In Progress → Completed / Cancelled
+
+---
+
+### ⏳ Care Timeline Module
+
+A chronological activity stream that records:
+
+- Status changes  
+- Department updates  
+- Clinical notes  
+- Action completions  
+
+Provides full visibility into patient care progression.
+
+---
+
+### 🏢 Department Queue System
+
+Dynamic task views filtered by:
+
+- User role  
+- Department  
+- Action status  
+
+Acts as the operational workspace for clinical units.
+
+---
+
+### 🔄 Real-Time Synchronization
+
+Whenever a clinical action is updated:
+
+1. System state is updated  
+2. Timeline event is generated  
+3. Dashboards reflect changes  
+4. All relevant users see updated patient status  
+
+---
+
+## 👥 Supported Roles
+
+| Role | System Interaction |
+|------|--------------------|
+| Doctor | Creates and reviews clinical actions |
+| Nurse | Executes care tasks |
+| Pharmacy | Processes medication workflows |
+| Lab / Imaging | Handles diagnostic requests |
+| Admin | Monitors system-wide operations |
+
+---
+
+## 🧪 Example Workflow
+
+**Lab Test Execution**
+
+Doctor creates lab test → Lab receives task → Lab marks completion → Timeline updates → Doctor dashboard reflects result
+
+---
+
+## 🔐 Security Model
+
+- Role-based access enforcement  
+- Segregated departmental task views  
+- Action-level audit tracking  
+- Controlled patient record visibility  
+
+---
+
+## 🚀 Future Technical Extensions
+
+- EHR system integration  
+- AI-driven task prioritization  
+- Predictive clinical alerts  
+- IoT-based patient monitoring  
+
+---
+
+## 🏁 Summary
+
+CareFlow implements a workflow-oriented coordination architecture that transforms hospital operations from siloed communication into structured, real-time, patient-centric task orchestration.
+
