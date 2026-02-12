@@ -154,18 +154,13 @@ Whenever a clinical action is updated:
 ![login page](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20121150.png)
 ![Sign up Page](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20121210.png)
 ## 📸 Dashboard Preview
-
+![CareFlow Dashboard](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20121918.png)
 ![CareFlow Dashboard](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20120242.png)
 
 ## ⏳ Application Interface
 ![api](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20121130.png)
 
 
-## 🧪 Example Workflow
-
-**Lab Test Execution**
-
-Doctor creates lab test → Lab receives task → Lab marks completion → Timeline updates → Doctor dashboard reflects result
 
 ---
 
