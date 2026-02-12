@@ -152,11 +152,11 @@ Whenever a clinical action is updated:
 ---
 ## 📸 Dashboard Preview
 
-![CareFlow Dashboard](Screenshot 2026-02-12 120242.png)
+![CareFlow Dashboard](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20120242.png)
 
 ## ⏳ Patient Timeline
 
-![Timeline View](Screenshot 2026-02-12 120242.png)
+![Timeline View](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20120242.png)
 
 
 ## 🧪 Example Workflow
