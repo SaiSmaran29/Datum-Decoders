@@ -160,7 +160,7 @@ Whenever a clinical action is updated:
 ## ⏳ Application Interface
 ![api](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Screenshot%202026-02-12%20121130.png)
 ### 🎥 Project Demo
-Download the video given [download the video](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Recording%202026-02-12%20182120%20(1)%20(1).mp4) to view the Website in action.
+Download the video given [Workflow](https://github.com/SaiSmaran29/Datum-Decoders/blob/main/Recording%202026-02-12%20182120%20(1)%20(1).mp4) to view the Website in action.
 
 
 
